@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+:root {
+  /* colors */
+  --color-1: #ffffff;
+  --color-2: #646e7a;
+  --color-3: rgb(227, 231, 239);
+  --color-4: #1d2c3c;
+  --color-5: #1179bf;
+  --color-6: #038e7d;
+  --color-7: #566473;
+  --color-8: #dadada;
+  --color-9: rgb(19, 162, 214);
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-3);
+
+  height: auto;
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+}
+/* navigation bar, logo , nav href */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 40px;
+  margin-top: 5px;
+}
+.nav-hrefs {
+  display: flex;
+  gap: 60px;
+  text-decoration: none;
+  align-items: center;
+}
+.nav-hrefs a {
+  text-decoration: none;
+  color: var(--color-4);
+  font-size: 15px;
+  font-weight: 700;
+  &:nth-child(5) {
+    border: 2px solid var(--color-2);
+    border-radius: 6px;
+    padding: 6px 12px;
+    display: inline-block;
+  }
+}
+/* the main content */
+main {
+  background-color: var(--color-1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 650px;
+  width: 892px;
+  margin: 30px auto;
+  border-radius: 6px;
+  /* margin-top: 186px; */
+}
+/** checkout */
+.checkout-h2,
+h2 {
+  color: var(--color-4);
+  display: flex;
+  font-size: 20px;
+  width: 580px;
+  height: 10px;
+  margin-top: 10px;
+  left: 262px;
+  top: 227px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+/* basic information */
+.basic-info {
+  color: var(--color-4);
+  margin-left: 40px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.circle-border {
+  border: 3px solid var(--color-5);
+  border-radius: 45%;
+  margin-right: 10px;
+  padding: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 20px;
+  margin-left: 40px;
+  padding: 5px;
+  padding-right: 40px;
+}
+
+.grid input {
+  color: var(--color-4);
+  width: 100%;
+  /* padding: 5px; */
+  margin: 5px;
+  margin-bottom: 40px;
+}
+
+.full-width {
+  grid-column: 1 / -1;
+  margin-top: -13px;
+  /* max-width: 550px; */
+  width: 80%;
+  margin-top: -40px;
+}
+.input {
+  background-color: var(--color-3);
+  border: 1px;
+  padding: 8px;
+  border-radius: 4px;
+}
+/* your payment information */
+.payment-info {
+  color: var(--color-4);
+  margin-left: 40px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.form-grid-2 .grid {
+  width: 85%;
+  margin-left: 40px;
+  margin-top: 20px;
+  padding: 5px;
+}
+button {
+  width: 88%;
+  height: ;
+  background-color: var(--color-6);
+  color: var(--color-1);
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  border: 5px;
+  border-radius: 5px;
+}
+.paragraph {
+  font-size: 15px;
+  margin-left: 90px;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+.contact-line {
+  text-decoration: underline;
+}
+.powered {
+  font-size: 15px;
+  background-color: var(--color-7);
+  color: var(--color-1);
+  width: 138px;
+  padding: 0 0.4rem;
+  text-align: center;
+  left: 50%;
+  margin: 1% 0 1% 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  border-radius: 0.3rem;
+  margin-top: 20px;
+}
+.powered p {
+  margin: 1px 0 0 5px;
+  font-size: 0.7rem;
+  font-weight: 400;
+}
+.stripe {
+  font-weight: 900;
+  font-size: 1.1rem;
+  vertical-align: middle;
+}
+
+/* smaller container: light blue Bg */
+.section_2 {
+  background-color: var(--color-5);
+  color: var(--color-8);
+  height: 650px;
+}
+.plan-content {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  margin-left: 35px;
+}
+h3 {
+  font-size: 20px;
+  font-style: normal;
+  margin-top: -10px;
+  font-weight: 400;
+  /* max-width: 175px; */
+}
+/* for price plan / details */
+.amount .price-period {
+  font-size: 16px;
+  padding-left: 10px;
+}
+.amount .price-amount {
+  font-size: 45px;
+  font-weight: 300;
+  font-style: italic;
+}
+.amount {
+  display: flex;
+  margin-top: 5px;
+}
+.amount-currency {
+  margin-top: 6px;
+  padding-right: 6px;
+  font-size: 20px;
+}
+.renew-text p {
+  color: var(--color-8);
+  margin-top: 10px;
+  font-size: 12px;
+  margin-bottom: 5px;
+  font-style: italic;
+}
+.renew-text h6 {
+  color: var(--color-8);
+  font-size: 12px;
+  font-style: italic;
+}
+
+/* list of benefits */
+.benefits {
+  list-style: none;
+  line-height: 24px;
+  margin-bottom: 20px;
+  & strong {
+    font-size: 20px;
+  }
+}
+.client-sites p {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+strong {
+  font-size: 20px;
+  padding: 6px;
+}
+.Agency-plan p {
+  font-size: 13px;
+  text-decoration: underline 5px solid var(--color-9);
+  margin-bottom: 25px;
+}
+/* Review and reviewer */
+.review p {
+  font-size: 18px;
+  margin-top: 45px;
+  margin-bottom: 40px;
+}
+.review strong {
+  font-size: 20px;
+  margin-left: -7px;
+  font-style: italic;
+}
+.reviewer {
+  display: flex;
+  font-size: 14px;
+  gap: 15px;
+  margin-top: -25px;
+  & figcaption {
+    margin-top: 10px;
+  }
+}
+/* footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10px;
+  color: var(--color-7);
+}
+footer a {
+  text-decoration: none;
+  color: var(--color-6);
+}
