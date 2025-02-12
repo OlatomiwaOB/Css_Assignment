@@ -2,3 +2,67 @@
   background-color: gray;
   height: 100vh;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+}
+article {
+  width: 45vw;
+  height: auto;
+  margin: 40px auto;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+#Novus-watch {
+  background-image: url(../image/watch.JPG);
+  /* background-position: center; */
+  background-size: 100% 100%;
+  background-repeat: no repeat;
+  width: 100%;
+  height: 300px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+#Novus-watch h2 {
+  background-color: rgb(253, 244, 192);
+  color: black;
+  font-size: 2rem;
+  width: 20.1vw;
+  padding: 4px;
+  position: relative;
+  top: 10px;
+  right: 10px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+#content h1 {
+  font-size: 2rem;
+  font-weight: 200;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-left: 15px;
+  span {
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    color: #333;
+  }
+}
+#content p {
+  font-size: 25px;
+  margin-top: 15px;
+  margin-left: 15px;
+  padding-bottom: 20px;
+  color: black;
+}
