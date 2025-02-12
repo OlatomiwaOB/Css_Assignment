@@ -1,8 +1,3 @@
-.main-body {
-  background-color: gray;
-  height: 100vh;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -65,4 +60,9 @@ article {
   margin-left: 15px;
   padding-bottom: 20px;
   color: black;
+}
+
+.main-body {
+  background-color: gray;
+  height: 100vh;
 }
