@@ -69,7 +69,7 @@ body {
 }
 /* strike style */
 .strike::after {
-  content: url(../assets/image/Strikeimage.png);
+  content: url(../image/Strikeimage.png);
   color: var(--color-2);
   position: absolute;
   top: 240px;
