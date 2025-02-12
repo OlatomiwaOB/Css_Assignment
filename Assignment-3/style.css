@@ -17,7 +17,7 @@ article {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 #Novus-watch {
-  background-image: url(../image/watch.JPG);
+  background-image: url("./assets/image/watch.JPG");
   /* background-position: center; */
   background-size: 100% 100%;
   background-repeat: no repeat;
@@ -60,9 +60,4 @@ article {
   margin-left: 15px;
   padding-bottom: 20px;
   color: black;
-}
-
-.main-body {
-  background-color: gray;
-  height: 100vh;
 }
