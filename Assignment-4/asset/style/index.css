@@ -12,11 +12,11 @@
   --color-4: #00b8a9;
   --color-5: gray;
 }
-body{
+body {
   width: 100vw;
   min-height: 100vh;
-   display: flex;
-  flex-direction: column; 
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 20px;
@@ -24,9 +24,8 @@ body{
 }
 .container {
   width: 100%;
-   display: flex;
+  display: flex;
   gap: 1em;
-  
 }
 /* logo section */
 .background {
@@ -35,13 +34,12 @@ body{
   display: flex;
   align-items: center;
   flex-direction: column;
-   justify-content: center; 
+  justify-content: center;
   padding: 2em;
-  margin-right: 15em; 
-   gap: 1em;
-   
-} 
- .background img {
+  margin-right: 15em;
+  gap: 1em;
+}
+.background img {
   margin-left: 4.9em;
   margin-right: 22.5em;
 }
@@ -49,9 +47,7 @@ body{
   font-size: 1.2em;
   margin-right: 13.5em;
   margin-left: 4.5em;
-  
 }
-
 
 .background .p-1 {
   font-size: 0.8em;
@@ -73,7 +69,7 @@ body{
   margin-top: 2em;
   margin-right: 13em;
   gap: 1em;
-   border-radius: 0.5em; 
+  border-radius: 0.5em;
 }
 .grid input {
   width: 100%;
@@ -105,7 +101,7 @@ input:focus {
   padding: 1em;
   margin-top: 1em;
 }
- button {
+button {
   grid-columns: span 2;
 }
 /* button */
@@ -126,7 +122,7 @@ input:focus {
   font-weight: bold;
   margin-right: 2em;
   margin-left: 2em;
-  
+
   a {
     color: var(--color-4);
     text-decoration: underline;
@@ -137,55 +133,51 @@ input:focus {
 }
 /* media queries for mobile screen */
 @media (max-width: 768px) {
-  html, body {
+  html,
+  body {
     overflow-x: hidden;
   }
   body {
-     display: flex;
-     width: 100%;
-    background-color: var(--color-1); 
-     align-items: center;
-    justify-content: center; 
-     padding: 20px;
-      border: 1px solid black; 
+    display: flex;
+    width: 100%;
+    background-color: var(--color-1);
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid black;
   }
-   .container {
-    display: block; 
-     padding-left: 1.6em;
-     padding-right: 1.6em;  
-     padding-top: 0 auto;
-     margin: 0 auto;
-     gap: 1em;
-  
-    
-  } 
+  .container {
+    display: block;
+    padding-left: 1.6em;
+    padding-right: 1.6em;
+    padding-top: 0 auto;
+    margin: 0 auto;
+    gap: 1em;
+  }
   .background {
-     display: block; 
-       padding: 20px; 
-      margin-right: 20em;
-     font-size: 20px;
-    
+    display: block;
+    padding: 20px;
+    margin-right: 20em;
+    font-size: 20px;
   }
   .background img {
-   margin: 0 auto; 
-   width: 40px;
+    margin: 0 auto;
+    width: 40px;
   }
-   .background h1 {
+  .background h1 {
     margin-left: 3px;
     font-size: 0.6em;
     font-weight: bold;
-   
   }
   .background .p-1 {
     display: none;
-    
   }
   .background .mobile-p {
     color: var(--color-5);
     display: contents;
     font-size: 11.2px;
     font-weight: 200;
-    line-height: 0.5em; 
+    line-height: 0.5em;
   }
   .form-wrapper {
     display: block;
@@ -193,10 +185,10 @@ input:focus {
     margin-bottom: 9em;
     border-radius: 5px;
   }
-   .form-wrapper .grid input {
-     /* width: 100%; */
-     padding: 1em;
-     margin-bottom: 1em;
+  .form-wrapper .grid input {
+    /* width: 100%; */
+    padding: 1em;
+    margin-bottom: 1em;
   }
   .form-wrapper .grid select {
     /* width: 100%; */
@@ -206,129 +198,30 @@ input:focus {
   .form-wrapper .Activity-level {
     /* width: 100%; */
     margin-bottom: 1em;
-  } 
+  }
   .form-wrapper .password {
-      /* width: 100%; */
-      margin-bottom: 1em;
+    /* width: 100%; */
+    margin-bottom: 1em;
   }
   .form-wrapper button {
     /* width: 100%; */
     margin-bottom: 1em;
     border-radius: 0.1em;
-}
-.terms-of-use {
-  display: none;
-}
-.mobile-terms, p {
-  display: block;
-  width: 100%;
-  margin-top: -120px;
-  margin-left: 10.5px;
-  padding-right: 9px;
-  font-size: 12.5px;
-  line-height: 1.5em;
-  a {
-    color: var(--color-4);
   }
-}
-}
-
- 
-  
-
-/* .mobile-terms {
-  display: none;
-} */
-
-/* media ueries for mobile screen
-@media (max-width: 768px) {
-  main {
-    background-color: red;
-    display: block;
-    margin:0 auto;
-    padding: 20px;
-    /* margin-top: 1px; */
-    /* width: 100%;
-    padding-bottom: 90px;
-    border: 1px solid black;
-  } */ */
-
-  /* .left-section {
-    margin-left: -5px;
-    padding: 2px;
-    margin-bottom: 30px;
-  } */
-  /* img {
-    width: 100px;
-    height: auto;
-    margin-left: -20px;
-    margin-bottom: 40px;
-  } */
-
-  /* .left-section h2 {
-    font-size: 24px;
-    /* margin-left: -55px; */
-    /* margin-bottom: -40px;
-  } */ */
-  /* .left-section .mobile-p {
-    display: contents;
-    line-height: 2.1rem;
-    font-size: 15px;
-    color: var(--color-5);
-    margin-left: 270px;
-  } */
-  /* .paragraph {
+  .terms-of-use {
     display: none;
-  } */
-  /* .form-wrapper {
-    display: block;
-    width: 100%; */
-    
-    /* box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2); */
   }
-  /* .grid input {
-    margin-top: 5px;
-    margin-bottom: 5px;
+  .mobile-terms,
+  p {
+    display: block;
     width: 100%;
-    padding: 10px;
-  } */
-  /* .grid select {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    width: 100%;
-  } */
-  /* .Activity-level {
-    width: 100%;
-    margin-top: 5px;
-    margin-bottom: 5px;
-  } */
-  /* .password {
-    width: 100%;
-    margin-top: 5px;
-    margin-bottom: 5px;
-  } */
-  /* .form-wrapper button {
-    width: 100%;
-    margin-top: 15px;
-    margin-bottom: 30px;
-  } */
-  /* .terms-of-use {
-    display: none;
-  } */
- /* .mobile-terms {
-    text-align: center;
-    display: contents;
-    margin-top: 3em; */
-    /* display: contents;
-    margin-top: 5em;
-    text-align: center;
-    padding: 20px;
-    font-size: 14px;
-
-    color: var(--color-5);
-
+    margin-top: -120px;
+    margin-left: 10.5px;
+    padding-right: 9px;
+    font-size: 12.5px;
+    line-height: 1.5em;
     a {
       color: var(--color-4);
     }
-  } */
+  }
 }
