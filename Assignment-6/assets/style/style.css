@@ -350,16 +350,143 @@ img[alt="Rectangle"] {
   background-color: var(--color-2);
   color: var(--color-5);
 }
-.desktop_image {
+/* vector style : left_side*/
+
+.vector_image_left_1 {
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-left: -60px;
+  position: absolute;
 }
+.vector_image_left_2 {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: -50px;
+}
+.vector_image_left_3 {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: -20px;
+}
+/* vector style :righ_side */
+.vector_image_right_1 {
+  position: absolute;
+  margin-left: 65em;
+  margin-top: 30em;
+}
+.vector_image_right_2 {
+  position: absolute;
+  margin-top: 21.5em;
+  margin-left: 60em;
+  margin-right: 40px;
+}
+
+.First_bg {
+  height: 523px;
+  width: 1440px;
+  margin-top: 100px;
+}
+.inside_section {
+  background-color: var(--color-5);
+  width: 476px;
+  height: 355px;
+  left: 482px;
+  text-align: center;
+  position: relative;
+  top: -450px;
+  border-radius: 12px;
+}
+.for_Paste input {
+  width: 80%;
+  padding: 1em;
+  border-radius: 12px;
+  border: 1px solid var(--color-2);
+  margin-top: 20px;
+}
+input::placeholder {
+  color: var(--color-2);
+}
+.choose_type {
+  display: flex;
+  margin-left: 47px;
+  gap: 40px;
+  margin-top: 30px;
+}
+.choose select {
+  padding: 1em;
+  width: 120%;
+  border-radius: 10px;
+  border: 1px solid var(--color-2);
+  color: var(--color-2);
+}
+.type input {
+  padding: 1em;
+  width: 120%;
+  border-radius: 10px;
+  border: 1px solid var(--color-2);
+}
+button {
+  margin-top: 30px;
+  padding: 1em;
+  width: 80%;
+  border-radius: 22px;
+  background-color: var(--color-2);
+  color: var(--color-5);
+  border: 1px solid var(--color-2);
+}
+.inside_section p {
+  margin-top: 20px;
+  color: var(--color-2);
+  font-size: 15px;
+  margin-right: 10px;
+}
+.inside_section .p1 {
+  margin-top: -10px;
+  margin-right: 120px;
+}
+
 /* FAQs style */
 .faqs_frame {
-  margin: 0 auto;
+  position: relative;
+  margin-top: -500px;
+  margin-bottom: 200px;
+  left: 400px;
   width: 700px;
   font-size: 15px;
+  top: 200px;
 }
+/* FAGS left vector style */
+.fags_vector_left_1 {
+  position: absolute;
+  margin-left: -400px;
+  margin-top: -70px;
+}
+.fags_vector_left_2 {
+  position: absolute;
+  margin-left: -400px;
+  margin-top: -50px;
+}
+.fags_vector_left_3 {
+  position: absolute;
+  margin-left: -400px;
+  margin-top: -50px;
+}
+/* FAGS right vector style */
+.fags_vector_right_1 {
+  position: absolute;
+  margin-left: 58rem;
+  margin-top: 410px;
+}
+.fags_vector_right_2 {
+  position: absolute;
+  margin-left: 52rem;
+  margin-top: 390px;
+}
+.fags_vector_right_3 {
+  position: absolute;
+  margin-left: 45rem;
+  margin-top: 338px;
+}
+
 .faqs_frame .faqs {
   display: flex;
   justify-content: center;
@@ -384,6 +511,36 @@ img[alt="Rectangle"] {
 .Rectangle_bg {
   margin-bottom: 100px;
   margin-top: 100px;
+}
+/* left vector style */
+.revolution_left_vector_1 {
+  position: absolute;
+  margin-top: 100px;
+}
+.revolution_left_vector_2 {
+  position: absolute;
+  margin-top: 100px;
+}
+.revolution_left_vector_3 {
+  position: absolute;
+  margin-top: 100px;
+}
+/* right vector style */
+.revolution_right_vector_1 {
+  position: absolute;
+  margin-left: 70rem;
+  margin-top: 300px;
+}
+
+.revolution_right_vector_2 {
+  position: absolute;
+  margin-left: 65rem;
+  margin-top: 250px;
+}
+.revolution_right_vector_3 {
+  position: absolute;
+  margin-left: 60rem;
+  margin-top: 200px;
 }
 .Link {
   text-align: center;
@@ -410,7 +567,7 @@ footer {
 #last_footer {
   display: flex;
   gap: 70px;
-  background-image: url(../assets/image/cleanup.jpg);
+  background-image: url(../image/cleanupBG.jpg);
   background-size: cover;
   padding-top: 49px;
   padding-bottom: 30px;
